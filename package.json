@@ -1,18 +1,27 @@
 {
-  "name": "client",
+  "name": "@xanimo/react-boilerplate",
   "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "react-boilerplate <project>",
+=======
   "description": "",
+>>>>>>> c484550... create react-boilerplate package
+  "author": "xanimo",
+  "keywords": [],
+  "license": "ISC",
+  "bin": {
+    "react-boilerplate": "./bin/start.js"
+  },
   "homepage": "https://xanimo.github.io/react-boilerplate",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode=development --open --hot",
     "build": "webpack --mode=production",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm run build && gh-pages -d build"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "fs-extra": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
