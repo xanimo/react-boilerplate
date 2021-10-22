@@ -1,1 +1,1 @@
-# mern-dogecoin-storefront
+# react-boilerplate
