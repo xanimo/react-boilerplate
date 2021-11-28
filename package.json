@@ -1,11 +1,7 @@
 {
   "name": "@xanimo/react-boilerplate",
-  "version": "1.0.0",
-<<<<<<< HEAD
-  "description": "react-boilerplate <project>",
-=======
-  "description": "",
->>>>>>> c484550... create react-boilerplate package
+  "version": "0.0.1",
+  "description": "react-boilerplate",
   "author": "xanimo",
   "keywords": [],
   "license": "ISC",
